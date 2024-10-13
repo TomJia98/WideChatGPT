@@ -1,0 +1,172 @@
+
+/* General body styling */
+body {
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Container for input and buttons */
+.container, .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Slider styling */
+#maxWidthSlider {
+    width: 100%;
+    appearance: none;
+    height: 8px;
+    background: #ddd;
+    border-radius: 10px;
+    outline: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+#maxWidthSlider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#maxWidthSlider:hover {
+    opacity: 1;
+}
+
+/* Input field styling */
+#num {
+    width: 40%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#num::-webkit-outer-spin-button,
+#num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#num {
+    -moz-appearance: textfield; /* Hide spin buttons in Firefox */
+}
+
+/* Button styling */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Dark mode switch styling */
+.dark-mode-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #333;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+body.dark-mode button {
+    background-color: #555;
+}
+body.dark-mode button:hover {
+    background-color: #888; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode #num {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+#num::after {
+    content: '\25B2';
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 10px;
+    color: #333;
+}
+
+body.dark-mode #num::after {
+    color: white; /* Change color in dark mode */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>ChatGPT window adjuster</title>
+  </head>
+  <body>
+    <h3>Slide to adjust ChatGPTs window width</h3>
+    <input type="range" id="maxWidthSlider" min="1" max="9999" value="1200" />
+    <div class="container">
+      <span>Width: <input type="number" id="num" value="1200" min="1" step="10"/> px</span>
+    </div>
+    <br />
+    <div class="buttonContainer">
+      <button id="max">max</button>
+      <button id="reset">reset</button>
+    </div>
+
+    <div class="dark-mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="slider"></span>
+        </label>
+        <span>Dark Mode</span>
+      </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
