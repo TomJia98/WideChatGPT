@@ -1,6 +1,6 @@
-# WideChatGPT
+![icon](/images/icon-32.png)  WideChatGPT ![icon](/images/icon-32.png)
+=========================================================================
 
-![icon](/images/icon-128.png)
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
