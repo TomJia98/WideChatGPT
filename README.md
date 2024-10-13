@@ -1,4 +1,4 @@
-# WideChatGPT
+# WideChatGPT ![icon](/images/icon-128.png)
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
@@ -15,20 +15,20 @@ Whether you're multitasking, focusing on detailed conversations, or simply want 
 
 ## Key Features:
 **Adjustable Width**: Instantly expand the ChatGPT window to your preferred width using a convenient slider or input specific dimensions.
-![resizing](/images/Screenshot%205.png)
+![width](/images/Screenshot%205.png)
 
 **Dynamic Resizing**: Quickly toggle between predefined window sizes or manually set a custom size for a more immersive ChatGPT experience.
 ![resizing](/images/Screenshot%201.png)
 
 **Dark Mode Compatibility**: Fully functional in both light and dark modes, so it blends seamlessly with your browser theme.
-![resizing](/images/Screenshot%204.png)
+![darkmode](/images/Screenshot%204.png)
 
 **Simple UI**: Minimalist, easy-to-use interface with options to maximize or reset the window size with just one click.
 
-![resizing](/images/Screenshot%203.png)
+![ui](/images/Screenshot%203.png)
 
 **Persistent Settings**: Your last used window size is saved, so you can pick up right where you left off without readjusting.
-![resizing](/images/Screenshot%202.png)
+![settings](/images/Screenshot%202.png)
 ___
 Perfect for students, professionals, and anyone who spends a lot of time interacting with ChatGPT. Enhance your productivity by optimizing your workspace with just a few clicks!
 
