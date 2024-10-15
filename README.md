@@ -37,7 +37,7 @@ Perfect for students, professionals, and anyone who spends a lot of time interac
 
 ## Installation
 
-To install this extension, you can either download it here and install it **[manually](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)** , or install it through the **[Chrome webstore]()**
+To install this extension, you can either download it here and install it **[manually](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)** , or install it through the **[Chrome webstore](https://chromewebstore.google.com/detail/larger-chatgpt-interactiv/iglccibigockbiaeoamjeojjfngbcnnl)**
 
 ## Licence
 
